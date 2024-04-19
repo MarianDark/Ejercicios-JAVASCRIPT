@@ -1,0 +1,15 @@
+.character {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.character img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.character-description {
+    display: none;
+    margin-top: 10px;
+}

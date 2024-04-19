@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.character-card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.image{
+    height: 380px;
+    max-width: 100%;
+}
+
+.character-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.character-stats {
+    margin-bottom: 10px;
+}
+
+.battle-result {
+    margin-top: 20px;
+    display:none;
+}

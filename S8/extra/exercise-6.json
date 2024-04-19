@@ -1,0 +1,72 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "Humano",
+      "avatar": "http://localhost:3000/images/humano.jpg",
+      "damage": [
+        "6d6",
+        "2d10",
+        "1d20"
+      ],
+      "critic": 10,
+      "defense": 10,
+      "vitality": 250
+    },
+    {
+      "id": "2",
+      "name": "Enano",
+      "avatar": "http://localhost:3000/images/enano.jpg",
+      "damage": [
+        "8d4",
+        "3d10"
+      ],
+      "critic": 9,
+      "defense": 15,
+      "vitality": 325
+    },
+    {
+      "id": "3",
+      "name": "Licántropo",
+      "avatar": "http://localhost:3000/images/licantropo.jpg",
+      "damage": [
+        "4d10",
+        "2d20"
+      ],
+      "critic": 10,
+      "defense": 4,
+      "vitality": 250
+    },
+    {
+      "id": "1",
+      "name": "Orco",
+      "avatar": "http://localhost:3000/images/orco.jpg",
+      "damage": [
+        "3d20"
+      ],
+      "critic": 15,
+      "defense": 12,
+      "vitality": 300
+    },
+    {
+      "id": "1",
+      "name": "Elfo",
+      "avatar": "http://localhost:3000/images/elfo.jpg",
+      "damage": [
+        "12d6"
+      ],
+      "critic": 6,
+      "defense": 8,
+      "vitality": 225
+    },
+    {
+      "id": "fcfb",
+      "name": "Marian",
+      "avatar": "data:image/jpeg;base64,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",
+      "critic": 50,
+      "defense": 100,
+      "vitality": 100,
+      "damage": "1d10"
+    }
+  ]
+}
